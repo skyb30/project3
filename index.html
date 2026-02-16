@@ -10,21 +10,28 @@
 <body class="">
     <!-- ================= HEADER ================= -->
     
-   <header class="bg-[url('./image/blackpic.avif')] bg-cover bg-center w-full  text-white h-220">
-      <div class="max-w-7xl -auto px-2  flex justify-between items-center bg-gradient-to-l from-stone-800 to-black-100 ">
-       <h1 class="text-4xl font-bold bg-gradient-to-l from-rose-500 to-red-200 bg-clip-text text-transparent ">Panto</h1>
-        <ul class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center gap-10 bg-gradient-to-l from-lime-600 to-indigo-900 rounded-2xl">
-          <li><a href="#" class="hover:text-orange-500">Furniture</a></li>
-         <select name="" id=""></select>
-         <li><a href="#" class="hover:text-orange-500">Shop</a></li>
-         <li><a href="#" class="hover:text-orange-500">About</a></li>
-         <li><a href="#" class="hover:text-orange-500">Contact</a></li>
-         </ul>
-
-         <div class="m-16 bg-gradient-to-l from-white to-stone-500 bg-clip-text text-transparent">
+   <header class="bg-[url('./image/blackpic.avif')] bg-cover bg-center  text-white px-6 md:px-12 lg:px-20 py-6">
+         <!-- Navbar -->
+      <div class="flex justify-between items-center bg-gradient-to-l from-stone-800 to-black-100 ">
+       <h1 class="text-4xl font-bold bg-gradient-to-l from-rose-500 to-red-200 bg-clip-text md:text-2xl text-transparent md:text-2xl">Panto</h1>
+       <!-- Desktop Menu -->
+        <div class=" hidden md:flex gap-8">
+          <div>
+            <a href="#" class="hover:text-orange-500">Furniture</a>
+            <select name="" id=""></select>
+          </div>
+         <a href="#" class="hover:text-orange-500">Shop</a>
+         <a href="#" class="hover:text-orange-500">About</a>
+         <a href="#" class="hover:text-orange-500">Contact</a>
+          <div class="bg-gradient-to-l from-white to-stone-500 bg-clip-text text-transparent text-2xl max-lg:block">
          <i class="  fa-solid fa-bag-shopping"></i>
          </div>
-         <button class="md:hidden text-2xl">☰</button>
+        </div>
+
+        
+         <div class="md:hidden">
+          <button class="text-2xl">☰</button>
+         </div>
         </div>
         <!-- ================= HERO ================= -->
 
@@ -412,4 +419,3 @@
            
 </body>
 </html>
-
